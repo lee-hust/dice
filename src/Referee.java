@@ -66,12 +66,6 @@ public class Referee {
             System.out.println();
         }
         winner = player_array[i-1];
-        for(i=0;i<MAX_PLAYER;i++) {
-            if(player_array[i] != winner && player_array[i] instanceof DefaultPlayer) {
-                tag = (DefaultPlayer) player_array[i];
-            }
-        }
-
     }
 
 }
