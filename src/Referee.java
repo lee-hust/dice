@@ -69,7 +69,6 @@ public class Referee {
         for(i=0;i<MAX_PLAYER;i++) {
             if(player_array[i] != winner && player_array[i] instanceof DefaultPlayer) {
                 tag = (DefaultPlayer) player_array[i];
-             //   tag.frustrate();
             }
         }
 
